@@ -11,18 +11,21 @@
 </head>
 
 <body>
+ 
   <header>
     <nav>
       <h1><a href="/">ConsciousEats</a></h1>
     </nav>
   </header>
 
+
+  <!--- MAP --->
   <main id="maincontent">
 
     <section id="map-container">
       <div id='map' style='width: 400px; height: 300px;'></div>
         <script>
-          mapboxgl.accessToken = 'pk.eyJ1IjoiY2llbG9za3llIiwiYSI6ImNqcm1wMGF1MzBoeTM0NG1raGdxNnBmaTMifQ.GCpp6mBPsaFeubOPXSX7TA';
+          mapboxgl.accessToken = 'sk.eyJ1IjoiY2llbG9za3llIiwiYSI6ImNqcm8ybWtwYTB4c3U0OW8wZ3Bjb3FjOGwifQ.YspKe6aGtvwWLfuwm04V3g';
           const map = new mapboxgl.Map({
           container: 'map',
           style: 'mapbox://styles/mapbox/streets-v11'
@@ -30,6 +33,8 @@
         </script>
     </section>
     
+
+
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>

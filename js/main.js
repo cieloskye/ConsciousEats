@@ -68,17 +68,17 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
   });
 }
 
-/**
- * Initialize leaflet map, called from HTML.
- */
+
+// Initialize map, set default parameters.
 initMap = () => {
   self.newMap = L.map('map', {
-        center: [40.722216, -73.987501],
-        zoom: 12,
+        center: [33.8487,  84.3734],
+        zoom: 15,
         scrollWheelZoom: false
       });
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
     mapboxToken: '<pk.eyJ1IjoiY2llbG9za3llIiwiYSI6ImNqcm1wMW9kMzBsbWw0OW10YmxtbXl4cXYifQ.v84iak4raObNufF7gOCrNw>',
+    //mapboxToken: 'sk.eyJ1IjoiY2llbG9za3llIiwiYSI6ImNqcm8ybWtwYTB4c3U0OW8wZ3Bjb3FjOGwifQ.YspKe6aGtvwWLfuwm04V3g',
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
       '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
