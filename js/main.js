@@ -72,8 +72,8 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
 // Initialize map, set default parameters.
 initMap = () => {
   self.newMap = L.map('map', {
-        center: [33.8487,  84.3734],
-        zoom: 15,
+        center: [40.722216, -73.987501],
+        zoom: 12,
         scrollWheelZoom: false
       });
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
