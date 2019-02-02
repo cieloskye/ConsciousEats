@@ -22,7 +22,7 @@ initMap = () => {
         scrollWheelZoom: false
       });
       L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
-        mapboxToken:'sk.eyJ1IjoiY2llbG9za3llIiwiYSI6ImNqcm8ybWtwYTB4c3U0OW8wZ3Bjb3FjOGwifQ.YspKe6aGtvwWLfuwm04V3g',
+        mapboxToken:'pk.eyJ1IjoiY2llbG9za3llIiwiYSI6ImNqcm40cTZrdDBxNjg0NG56azh6MjJqOG8ifQ.Wfp_Us_o_idTgSn4_heBXA',
         maxZoom: 18,
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
           '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
