@@ -207,12 +207,15 @@ fillRestaurantsHTML = (restaurants = self.restaurants) => {
 }
 
 /**
- * Create restaurant HTML.
+ * Create restaurant HTML
+    Special thanks to Carlos @ Udacity for help with accessibility.
+    https://www.youtube.com/watch?time_continue=831&v=tyVQW2PkFk4
  */
 createRestaurantHTML = (restaurant) => {
   const li = document.createElement('li');
 
   const image = document.createElement('img');
+  image.alt = restaurant.name + "restaurant photo";
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   li.append(image);
@@ -233,7 +236,7 @@ createRestaurantHTML = (restaurant) => {
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
   li.append(more)
-  
+
 
   return li
 }
