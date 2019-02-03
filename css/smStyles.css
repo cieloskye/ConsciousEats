@@ -100,7 +100,8 @@ nav h1 a {
 }
 /* ====================== Map ====================== */
 #map {
-  max-height: 400px;
+  max-height: 100%;
+  min-width: 100%;
   max-width: 100%;
   background-color: #ccc;
 }
