@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media screen and (max-width: 500px)
+@media screen and (max-width: 600px)
 /* Small Screens/Mobile CSS Document */
 
 body,td,th,p{
@@ -47,7 +47,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   letter-spacing: 1px;
   padding: 25px;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 /* ====================== Navigation ====================== */
 nav {
