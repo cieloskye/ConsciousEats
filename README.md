@@ -1,4 +1,4 @@
-# ConsciousEats
+# FoodiEats
 ---
 ## Contents
 - [Introduction](#introduction)
@@ -7,7 +7,7 @@
 - [Original Code](#original_code)
 
 ## Introduction
-Welcome to ConsciousEats, an app that help you cater to 
+Welcome to FoodiEats, an app that help you cater to 
 food allergies, intollerances & special dietary needs.
 Here you can find restaurants based on your needs, read & leave reviews from other users.
 Here's to your good health.
