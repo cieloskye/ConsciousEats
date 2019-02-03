@@ -4,6 +4,60 @@ let restaurants,
 var newMap
 var markers = []
 
+//Service Worker
+
+
+/** 
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register('/sw.js').then(() => {
+  
+  console.log('SW registered!');
+  
+  }) else if (!navigator.serviceWorker) {
+
+    console.log('Shit. SW.');
+
+};
+
+*/
+
+
+/** take 2
+* From https://developers.google.com/web/fundamentals/primers/service-workers/
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+*/
+
+
+
+
+/**
+take one
+function serviceWorker () {
+if (!navigator.serviceWorker) return;
+
+navigator.serviceWorker.register('/sw.js').then(() => {
+  
+  console.log('serviceWorker registered');
+  }).catch(() => {
+    console.log('Oh no! SW not registered!');
+  });
+
+};
+
+serviceWorker();
+*/
+
+
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
@@ -73,7 +127,7 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
 initMap = () => {
   self.newMap = L.map('map', {
         center: [40.722216, -73.987501],
-        zoom: 12,
+        zoom: 13.2,
         scrollWheelZoom: false
       });
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
