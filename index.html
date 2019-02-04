@@ -11,17 +11,17 @@
   
     <link rel="stylesheet" 
           href="css/smStyles.css">
- <!-- work ing progress:
-  media="screen and (max-width: 600px)"
+  <!-- work ing progress:
+    media="screen and (max-width: 600px)"
 
-  <link rel="stylesheet" media="screen and(min-width: 501px)"href="css/mdStyles.css">
+    <link rel="stylesheet" media="screen and(min-width: 501px)"href="css/mdStyles.css">
 
-  <link rel="stylesheet" media="screen and(min-width: 1200px)"href="css/lgStyles.css">
-  
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" 
-  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" 
-  crossorigin=""/>
+    <link rel="stylesheet" media="screen and(min-width: 1200px)"href="css/lgStyles.css">
   -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" 
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" 
+    crossorigin=""/>
+
 <!--Scripts-->  
   <!--SW Script-->
     <script type="application/javascript" charset="utf-8" src="js/sw.js"></script>
@@ -75,10 +75,12 @@
                   onchange="updateRestaurants()">
             <option value="all">All Neighborhoods</option>
           </select>
-          <label  id="neighborhoods-aria-description" class ="map-aria-description">MapBox Application</label>
+          <label  id="neighborhoods-label" class ="filter-label" neighborhoods>MapBox Application</label>
+
           <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
           </select>
+          <label  id="cuisines-label" class ="filter-label">cuisines</label>
         </div>
       </div>
       <ul id="restaurants-list"></ul>
