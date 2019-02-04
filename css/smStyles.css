@@ -124,9 +124,9 @@ nav h1 a {
 }
 /* ====================== Map ====================== */
 #map {
-  min-height:300px;
   min-width: 100%;
-  margin: auto;
+  max-width: 100%;
+  /* margin: auto; */
   background-color: #ccc;
 }
 /* ====================== Restaurant Filtering ====================== */
@@ -170,8 +170,8 @@ nav h1 a {
   padding: 20px 10px 60px;
   align-items: center;
   display: flex;
-    flex-flow: column;  
-    flex: 1;
+    flex-flow: wrap;
+    justify-content: center;
 }
 #restaurants-list li {
   background-color: #fff;
@@ -182,9 +182,6 @@ nav h1 a {
   padding: 10px 10px 10px;
   align-items: center;
   width: 80%;
-  display: flex;
-    flex-flow: column;  
-    flex: 1;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
