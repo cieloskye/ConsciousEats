@@ -156,7 +156,7 @@
     text-align: center;
     letter-spacing: 3;
     text-transform: uppercase;
-    justify-content: center;
+    justify-content: left;
   }
   .filter-options select {
     background-color: white;

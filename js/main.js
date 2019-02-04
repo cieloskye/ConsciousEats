@@ -4,60 +4,6 @@ let restaurants,
 var newMap
 var markers = []
 
-//Service Worker
-
-
-/** 
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('/sw.js').then(() => {
-  
-  console.log('SW registered!');
-  
-  }) else if (!navigator.serviceWorker) {
-
-    console.log('Shit. SW.');
-
-};
-
-*/
-
-
-/** take 2
-* From https://developers.google.com/web/fundamentals/primers/service-workers/
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
-*/
-
-
-
-
-/**
-take one
-function serviceWorker () {
-if (!navigator.serviceWorker) return;
-
-navigator.serviceWorker.register('/sw.js').then(() => {
-  
-  console.log('serviceWorker registered');
-  }).catch(() => {
-    console.log('Oh no! SW not registered!');
-  });
-
-};
-
-serviceWorker();
-*/
-
-
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
