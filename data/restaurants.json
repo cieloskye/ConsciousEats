@@ -4,20 +4,20 @@
     "name": "Mission Chinese Food",
     "neighborhood": "Manhattan",
     "photograph": "1.jpg",
-    "address": "171 E Broadway St, \nNew York, NY 10002",
+    "address": "171 E Broadway St\nNew York, NY 10002",
     "latlng": {
       "lat": 40.713829,
       "lng": -73.989667
     },
     "cuisine_type": "Asian",
     "operating_hours": {
-      "Mon": "5:30 pm - 11:00 pm",
+      "Mond": "5:30 pm - 11:00 pm",
       "Tues": "5:30 pm - 12:00 am",
-      "Wed": "5:30 pm - 12:00 am",
-      "Thurs": "5:30 pm - 12:00 am",
-      "Fri": "5:30 pm - 12:00 am",
-      "Sat": "12:00 pm - 4:00 pm, 5:30 pm - 12:00 am",
-      "Sun": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
+      "Wedn": "5:30 pm - 12:00 am",
+      "Thur": "5:30 pm - 12:00 am",
+      "Frid": "5:30 pm - 12:00 am",
+      "Satu": "12:00 pm - 4:00 pm, 5:30 pm - 12:00 am",
+      "Sund": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
     },
     "reviews": [{
         "name": "Steve",
@@ -43,20 +43,20 @@
     "name": "Emily",
     "neighborhood": "Brooklyn",
     "photograph": "2.jpg",
-    "address": "919 Fulton St, \nBrooklyn, NY 11238",
+    "address": "919 Fulton St\nBrooklyn, NY 11238",
     "latlng": {
       "lat": 40.683555,
       "lng": -73.966393
     },
     "cuisine_type": "Pizza",
     "operating_hours": {
-      "Mon": "5:30 pm - 11:00 pm",
+      "Mond": "5:30 pm - 11:00 pm",
       "Tues": "5:30 pm - 11:00 pm",
-      "Wed": "5:30 pm - 11:00 pm",
-      "Thurs": "5:30 pm - 11:00 pm",
-      "Fri": "5:30 pm - 11:00 pm",
-      "Sat": "5:00 pm - 11:30 pm",
-      "Sun": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
+      "Wedn": "5:30 pm - 11:00 pm",
+      "Thur": "5:30 pm - 11:00 pm",
+      "Frid": "5:30 pm - 11:00 pm",
+      "Satu": "5:00 pm - 11:30 pm",
+      "Sund": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
     },
     "reviews": [{
         "name": "Steph",
@@ -68,7 +68,7 @@
         "name": "Steve",
         "date": "October 26, 2016",
         "rating": 4,
-        "comments": "This cozy Clinton Hill restaurant excels at both straightforward and unusual wood-fired pizzas. If you want a taste of the latter, consider ordering the Emily, which is topped with mozzarella, pistachios, truffled sottocenere cheese, and honey. The menu includes salads and a handful of starters, as well as a burger that some meat connoisseurs consider to be among the best in the city."
+        "comments": "This cozy Clinton Hill restaurant excels at both straightforward and unusual wood-fired pizzas. If you want a taste of the latter, consider ordering the Emily, which is topped with mozzarella, pistachios, truffled sottocenere cheese, and honey. The menu includes salads and a handful of starters, as well as a burger that some meat connoisseurs consider to be aMondg the best in the city."
       },
       {
         "name": "Sam",
@@ -82,20 +82,20 @@
     "name": "Kang Ho Dong Baekjeong",
     "neighborhood": "Manhattan",
     "photograph": "3.jpg",
-    "address": "1 E 32nd St, \nNew York, NY 10016",
+    "address": "1 E 32nd St\nNew York, NY 10016",
     "latlng": {
       "lat": 40.747143,
       "lng": -73.985414
     },
     "cuisine_type": "Asian",
     "operating_hours": {
-      "Mon": "11:30 am - 2:00 am",
+      "Mond": "11:30 am - 2:00 am",
       "Tues": "11:30 am - 2:00 am",
-      "Wed": "11:30 am - 2:00 am",
-      "Thurs": "11:30 am - 2:00 am",
-      "Fri": "11:30 am - 6:00 am",
-      "Sat": "11:30 am - 6:00 am",
-      "Sun": "11:30 am - 2:00 am"
+      "Wedn": "11:30 am - 2:00 am",
+      "Thur": "11:30 am - 2:00 am",
+      "Frid": "11:30 am - 6:00 am",
+      "Satu": "11:30 am - 6:00 am",
+      "Sund": "11:30 am - 2:00 am"
     },
     "reviews": [{
         "name": "Steve",
@@ -121,20 +121,20 @@
     "name": "Katz's Delicatessen",
     "neighborhood": "Manhattan",
     "photograph": "4.jpg",
-    "address": "205 E Houston St, \nNew York, NY 10002",
+    "address": "205 E Houston St\nNew York, NY 10002",
     "latlng": {
       "lat": 40.722216,
       "lng": -73.987501
     },
     "cuisine_type": "American",
     "operating_hours": {
-      "Mon": "8:00 am - 10:30 pm",
+      "Mond": "8:00 am - 10:30 pm",
       "Tues": "8:00 am - 10:30 pm",
-      "Wed": "8:00 am - 10:30 pm",
-      "Thurs": "8:00 am - 2:30 am",
-      "Fri": "8:00 am - Sat",
-      "Sat": "Open 24 hours",
-      "Sun": "Sat - 10:30 pm"
+      "Wedn": "8:00 am - 10:30 pm",
+      "Thur": "8:00 am - 2:30 am",
+      "Frid": "8:00 am - Satu",
+      "Satu": "Open 24 hours",
+      "Sund": "Sat - 10:30 pm"
     },
     "reviews": [{
         "name": "Steve",
@@ -160,20 +160,20 @@
     "name": "Roberta's Pizza",
     "neighborhood": "Brooklyn",
     "photograph": "5.jpg",
-    "address": "261 Moore St, \nBrooklyn, NY 11206",
+    "address": "261 Moore St\nBrooklyn, NY 11206",
     "latlng": {
       "lat": 40.705089,
       "lng": -73.933585
     },
     "cuisine_type": "Pizza",
     "operating_hours": {
-      "Mon": "11:00 am - 12:00 am",
+      "Mond": "11:00 am - 12:00 am",
       "Tues": "11:00 am - 12:00 am",
-      "Wed": "11:00 am - 12:00 am",
-      "Thurs": "11:00 am - 12:00 am",
-      "Fri": "11:00 am - 12:00 am",
-      "Sat": "10:00 am - 12:00 am",
-      "Sun": "10:00 am - 12:00 am"
+      "Wedn": "11:00 am - 12:00 am",
+      "Thur": "11:00 am - 12:00 am",
+      "Frid": "11:00 am - 12:00 am",
+      "Satu": "10:00 am - 12:00 am",
+      "Sund": "10:00 am - 12:00 am"
     },
     "reviews": [{
         "name": "Steve",
@@ -182,7 +182,7 @@
         "comments": "Roberta's is the epicenter of the modern Brooklyn food scene.The pizzas are fantastic, but the restaurant really flexes its muscles with the vegetable dishes. In addition to the pies, consider ordering the radishes, the romaine salad, the roasted beets, and some of the charcuterie."
       },
       {
-        "name": "Raymond",
+        "name": "RayMondd",
         "date": "October 26, 2016",
         "rating": 4,
         "comments": "Roberta's, one of the better pizzas I have had in my life. Very trendy and hipsterish spot. Came here for lunch on a random weekday afternoon and when we arrived, there was a line forming already. The space is a bit cramped. You'll get to know your neighbors soon enough. The pizza is just delightful and delicious. It's a ncie plus that you get to see them firing up the pizzas in the corner. The major issue with Roberta's is the trek out to the Williamsburg/Bushwick."
@@ -199,20 +199,20 @@
     "name": "Hometown BBQ",
     "neighborhood": "Brooklyn",
     "photograph": "6.jpg",
-    "address": "454 Van Brunt St, \nBrooklyn, NY 11231",
+    "address": "454 Van Brunt St\nBrooklyn, NY 11231",
     "latlng": {
       "lat": 40.674925,
       "lng": -74.016162
     },
     "cuisine_type": "American",
     "operating_hours": {
-      "Mon": "Closed",
+      "Mond": "Closed",
       "Tues": "12:00 pm - 10:00 pm",
-      "Wed": "12:00 pm - 10:00 pm",
-      "Thurs": "12:00 pm - 10:00 pm",
-      "Fri": "12:00 pm - 11:00 pm",
-      "Sat": "12:00 pm - 11:00 pm",
-      "Sun": "12:00 pm - 9:00 pm"
+      "Wedn": "12:00 pm - 10:00 pm",
+      "Thur": "12:00 pm - 10:00 pm",
+      "Frid": "12:00 pm - 11:00 pm",
+      "Satu": "12:00 pm - 11:00 pm",
+      "Sund": "12:00 pm - 9:00 pm"
     },
     "reviews": [{
         "name": "Steve",
@@ -224,7 +224,7 @@
         "name": "Michelle",
         "date": "October 26, 2016",
         "rating": 4,
-        "comments": "Overall, a great try of New York BBQ. The restaurant décor is rustic with a good amount of seats to sit and enjoy the meal. I definitely would love to come back and try that monster of a beef rib!"
+        "comments": "Overall, a great try of New York BBQ. The restaurant décor is rustic with a good amount of seats to sit and enjoy the meal. I definitely would love to come back and try that Mondster of a beef rib!"
       },
       {
         "name": "Ai-Mei",
@@ -238,20 +238,20 @@
     "name": "Superiority Burger",
     "neighborhood": "Manhattan",
     "photograph": "7.jpg",
-    "address": "430 E 9th St St, \nNew York, NY 10009",
+    "address": "430 E 9th St St\nNew York, NY 10009",
     "latlng": {
       "lat": 40.727397,
       "lng": -73.983645
     },
     "cuisine_type": "American",
     "operating_hours": {
-      "Mon": "11:30 am - 10:00 pm",
+      "Mond": "11:30 am - 10:00 pm",
       "Tues": "Closed",
-      "Wed": "11:30 am - 10:00 pm",
-      "Thurs": "11:30 am - 10:00 pm",
-      "Fri": "11:30 am - 10:00 pm",
-      "Sat": "11:30 am - 10:00 pm",
-      "Sun": "11:30 am - 10:00 pm"
+      "Wedn": "11:30 am - 10:00 pm",
+      "Thur": "11:30 am - 10:00 pm",
+      "Frid": "11:30 am - 10:00 pm",
+      "Satu": "11:30 am - 10:00 pm",
+      "Sund": "11:30 am - 10:00 pm"
     },
     "reviews": [{
         "name": "Steve",
@@ -277,20 +277,20 @@
     "name": "The Dutch",
     "neighborhood": "Manhattan",
     "photograph": "8.jpg",
-    "address": "131 Sullivan St, \nNew York, NY 10012",
+    "address": "131 Sullivan St\nNew York, NY 10012",
     "latlng": {
       "lat": 40.726584,
       "lng": -74.002082
     },
     "cuisine_type": "American",
     "operating_hours": {
-      "Mon": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+      "Mond": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
       "Tues": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Wed": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Thurs": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Fri": "11:30 am - 3:00 pm, 5:30 pm - 11:30 pm",
-      "Sat": "10:00 am - 3:00 pm, 5:30 pm - 11:30 pm",
-      "Sun": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
+      "Wedn": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+      "Thur": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+      "Frid": "11:30 am - 3:00 pm, 5:30 pm - 11:30 pm",
+      "Satu": "10:00 am - 3:00 pm, 5:30 pm - 11:30 pm",
+      "Sund": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
     },
     "reviews": [{
         "name": "Steve",
@@ -316,20 +316,20 @@
     "name": "Mu Ramen",
     "neighborhood": "Queens",
     "photograph": "9.jpg",
-    "address": "1209 Jackson Ave, \nQueens, NY 11101",
+    "address": "1209 Jackson Ave\nQueens, NY 11101",
     "latlng": {
       "lat": 40.743797,
       "lng": -73.950652
     },
     "cuisine_type": "Asian",
     "operating_hours": {
-      "Mon": "5:00 pm - 10:00 pm",
+      "Mond": "5:00 pm - 10:00 pm",
       "Tues": "5:00 pm - 10:00 pm",
-      "Wed": "5:00 pm - 10:00 pm",
-      "Thurs": "5:00 pm - 10:00 pm",
-      "Fri": "5:00 pm - 11:00 pm",
-      "Sat": "5:00 pm - 11:00 pm",
-      "Sun": "5:00 pm - 10:00 pm"
+      "Wedn": "5:00 pm - 10:00 pm",
+      "Thur": "5:00 pm - 10:00 pm",
+      "Frid": "5:00 pm - 11:00 pm",
+      "Satu": "5:00 pm - 11:00 pm",
+      "Sund": "5:00 pm - 10:00 pm"
     },
     "reviews": [{
         "name": "Steve",
@@ -355,26 +355,26 @@
     "name": "Casa Enrique",
     "neighborhood": "Queens",
     "photograph": "10.jpg",
-    "address": "5-48 49th Ave, \nQueens, NY 11101",
+    "address": "5-48 49th Ave\nQueens, NY 11101",
     "latlng": {
       "lat": 40.743394,
       "lng": -73.954235
     },
     "cuisine_type": "Mexican",
     "operating_hours": {
-      "Mon": "5:00 pm - 12:00 am",
+      "Mond": "5:00 pm - 12:00 am",
       "Tues": "5:00 pm - 12:00 am",
-      "Wed": "5:00 pm - 12:00 am",
-      "Thurs": "5:00 pm - 12:00 am",
-      "Fri": "5:00 pm - 12:00 am",
-      "Sat": "11:00 am - 12:00 am",
-      "Sun": "11:00 am - 12:00 am"
+      "Wedn": "5:00 pm - 12:00 am",
+      "Thur": "5:00 pm - 12:00 am",
+      "Frid": "5:00 pm - 12:00 am",
+      "Satu": "11:00 am - 12:00 am",
+      "Sund": "11:00 am - 12:00 am"
     },
     "reviews": [{
         "name": "Steve",
         "date": "October 26, 2016",
         "rating": 5,
-        "comments": "Head to this laid-back Long Island City restaurant for beef tongue tacos, chicken smothered in a heady mole sauce, and a monster crab tostada. New York's only Michelin-starred Mexican restaurant is an especially cool choice for lunch during the week or drinks after work. Eater critic Ryan Sutton awarded this restaurant two stars."
+        "comments": "Head to this laid-back Long Island City restaurant for beef tongue tacos, chicken smothered in a heady mole sauce, and a Mondster crab tostada. New York's only Michelin-starred Mexican restaurant is an especially cool choice for lunch during the week or drinks after work. Eater critic Ryan Sutton awarded this restaurant two stars."
       },
       {
         "name": "Rob",

@@ -76,7 +76,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
-  const imgurlbase = DBHelper.image.imageUrlForRestaurant(restaurant, 'bannners');
+  //const imgurlbase = DBHelper.image.imageUrlForRestaurant(restaurant, 'bannners');
 
   // fill operating hours
   if (restaurant.operating_hours) {

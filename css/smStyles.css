@@ -220,6 +220,9 @@
   }
 
   /* ====================== Restaurant Details ====================== */
+  nav {
+    text-align: left;
+    }
    /*.inside header {
     position: fixed;
     top: 0;
@@ -319,13 +322,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 16px;
+    margin-top: 20px;
+  }
+  #restaurant-hours {
+    width: 100%;
+    max-width: 400px;
   }
   #restaurant-hours td {
     color: #666;
-    justify-content: center;
-    display: flex;
-      flex-wrap: column;
+  }
+  .restaurant-reviewer-user {
+    font-weight: 500;
+  }
+  .map-aria-descriptions {
+    display: none;
+  }
+  #breadcrumb li: last-of-type a {
+    color: #666;
+    text-decoration-line: none;
   }
 }
 
