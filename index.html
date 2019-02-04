@@ -43,14 +43,17 @@
   </header>
 
 
-
+  <!-- Special thanks to Doug Brown for helping me 
+        get unstuck on aria-labels with his walkthrough! 
+        https://www.youtube.com/watch?v=92dtrNU1GQc -->
   <main id="maincontent">
 
     <!--- MAP --->
     <section  id="map-container" 
-              aria-labelledby="map" 
+              aria-labelledby="map-aria-description" 
               role="application">
       <div id='map' style='width: 400px; height: 300px;'></div>
+        <label  id="map-aria-description" class ="map-aria-description">MapBox Application</label>
         <script>
           mapboxgl.accessToken = 'pk.eyJ1IjoiY2llbG9za3llIiwiYSI6ImNqcm40cTZrdDBxNjg0NG56azh6MjJqOG8ifQ.Wfp_Us_o_idTgSn4_heBXA';
           const map = new mapboxgl.Map({
