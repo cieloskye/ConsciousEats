@@ -5,12 +5,14 @@
  */
 
 //Service Worker
+let dbReady = false;
 
-//cache
+//promise
+
+
+//install cache
 self.addEventListener('install', (event) => {
-	event.waitUntil(caches.open('v1').then(cache =>
-		return cache(
-			.addAll([
+	const cacheList = [
 				'/',
 				'/index.html',
 				'/restaurant.html',
@@ -30,16 +32,28 @@ self.addEventListener('install', (event) => {
 				'/img/7.jpg',
 				'/img/8.jpg',
 				'/img/9.jpg',
-				'/img/10.jpg'
-				])
-			.catch(error => {
+				'/img/10.jpg'];
+
+	event.waitUntil(caches.open('v1')
+		.then(cache => {
+				return cache.addAll(cacheList).catch(error => {
 				console.log('Caches did not open: ' + error);
-			}))));
+			});
+	}));
 });
 
-//fetch
 
+//fetch cache
 self.addEventListener('fetch', (event) => {
+	let cacheRequest = event.request;
+	let cacheUrlObj = new URL(event.request.url);
+	if (event.request.url.indexOf('restaurant.html') > -1) {
+		const cacheURL = 'restaurant.html';
+		cacheRequest = new Request(cacheURL);
+	}
+
+
+/*
 	event.respondWith(
 		caches.match(event.request).then((response) => {
 			if (response) {
@@ -50,5 +64,8 @@ self.addEventListener('fetch', (event) => {
 				console.log('Err. event.request not found. Fetching.');
 				return fetch(event.response);
 			}
-		}))
-};
+		});
+	});
+*/
+
+});
