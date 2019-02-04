@@ -13,11 +13,20 @@ Here you can find restaurants based on your needs, read & leave reviews from oth
 Here's to your good health.
 
 ## Instructions
+Welcome to FoodiEats (formerly FoodieEats)!  Please clone or download the repo to run locally on your machine.
 
+You can use the following company in your terminal if you have Python 3 installed:
+`python3 -m http.server 8000`
+
+Then visit the below in your favorite browser.
+
+http://localhost:8000
+
+Enjoy!
 
 
 ## Contributing
-This project is currently part of my Nanodegree with Udacity, therefore I will most likely not accept any pull requests until March 2019.
+This project is part of my Nanodegree with Udacity, therefore I will most likely not accept any pull requests.  I would love to hear any critiqus though!
 
 
 
