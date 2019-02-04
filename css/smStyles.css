@@ -139,8 +139,7 @@
   }
 
   /* ====================== Restaurant Filtering ====================== */
-  
-  .filter-options {
+   .filter-options {
     width: 100%;
     background-color: #252831;
     align-items: center;
@@ -148,15 +147,14 @@
   }
   .filter-options h2 {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
     line-height: 1;
-    margin: 0 20px;
-    padding: 8px 0;
-    text-align: center;
-    letter-spacing: 3;
+    margin-left: 20px;
+    padding: 3px 0 0;
+    text-align: left;
+    letter-spacing: 6;
     text-transform: uppercase;
-    justify-content: left;
   }
   .filter-options select {
     background-color: white;
@@ -167,7 +165,9 @@
     max-width: 50%;
     min-height: 42px;
     letter-spacing: 0;
-    margin-left: auto;
+    margin-left: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
     margin-right: auto;
     padding: 8px 8px;
   }
