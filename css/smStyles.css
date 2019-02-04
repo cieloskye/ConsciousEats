@@ -146,19 +146,20 @@ nav h1 a {
   text-align: center;
   letter-spacing: 3;
   text-transform: uppercase;
+  justify-content: center;
 }
 .filter-options select {
   background-color: white;
   border: 1px solid #fff;
   font-family: Arial,sans-serif;
   font-size: 12pt;
+  min-width: 170px;
   max-width: 50%;
-  height: 42px;
+  min-height: 42px;
   letter-spacing: 0;
   margin: 5px;
   padding: 5px 5px;
-  /* width: 170px;*/
-  display: flex;
+  justify-content: center;
 }
 
 /* ====================== Restaurant Listing ====================== */

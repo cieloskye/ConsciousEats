@@ -69,20 +69,18 @@
     <section>
       <div class="filter-options">
         <h2> Filter Results</h2>
-        <div>
           <select 
                   id="neighborhoods-select" 
                   name="neighborhoods" 
                   onchange="updateRestaurants()">
             <option value="all">All Neighborhoods</option>
           </select>
-          <label  id="neighborhoods-label" class ="filter-label" neighborhoods>MapBox Application</label>
+          <label  id="neighborhoods-label" class ="filter-label" neighborhoods></label>
 
           <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
           </select>
-          <label  id="cuisines-label" class ="filter-label">cuisines</label>
-        </div>
+          <label  id="cuisines-label" class ="filter-label"></label>
       </div>
       <ul id="restaurants-list"></ul>
     </section> 
