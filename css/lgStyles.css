@@ -1,5 +1,5 @@
 @charset "utf-8";
-/*@media screen and (max-width: 600px)*/
+@media screen and (min-width: 601px) {
 /* Small Screens/Mobile CSS Document */
 
 body,td,th,p{
@@ -332,5 +332,6 @@ nav h1 a {
   align-items: center;
   display: flex;
     flex-wrap: column;
+}
 }
 
