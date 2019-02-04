@@ -37,18 +37,20 @@
 <!---HEADER---> 
   <header>
     <nav>
-      <h1><a  tabindex="1" 
-              role="home" 
+      <h1><a  role="home" 
               href="/">FoodiEats</a></h1>
     </nav>
   </header>
 
 
-<!--- MAP --->
+
   <main id="maincontent">
 
-    <section id="map-container">
-      <div tabindex="2" id='map' style='width: 400px; height: 300px;'></div>
+    <!--- MAP --->
+    <section  id="map-container" 
+              aria-labelledby="map" 
+              role="application">
+      <div id='map' style='width: 400px; height: 300px;'></div>
         <script>
           mapboxgl.accessToken = 'pk.eyJ1IjoiY2llbG9za3llIiwiYSI6ImNqcm40cTZrdDBxNjg0NG56azh6MjJqOG8ifQ.Wfp_Us_o_idTgSn4_heBXA';
           const map = new mapboxgl.Map({
@@ -60,20 +62,20 @@
     
     <section>
       <div class="filter-options">
-        <h2 tabindex="3">Filter Results</h2>
+        <h2> Filter Results</h2>
         <div>
-          <select tabindex="4" 
+          <select 
                   id="neighborhoods-select" 
                   name="neighborhoods" 
                   onchange="updateRestaurants()">
-            <option tabindex="4" value="all">All Neighborhoods</option>
+            <option value="all">All Neighborhoods</option>
           </select>
-          <select tabindex="5" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+          <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
           </select>
         </div>
       </div>
-      <ul tabindex="6" id="restaurants-list"></ul>
+      <ul id="restaurants-list"></ul>
     </section>
 
   </main>
@@ -85,7 +87,7 @@
   <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
 
 <!--- FOOTER --->
-  <footer tabindex="0" id="footer">
+  <footer id="footer">
     COPYRIGHT (c) 2017 
     <a href="/">
       <strong>FoodiEats</strong>
