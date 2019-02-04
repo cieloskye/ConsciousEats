@@ -8,7 +8,8 @@
   <meta charset="UTF-8">
   <!-- Special thanks to: //https://litmus.com/community/discussions/219-which-meta-tag-is-the-best-for-responsive -->
   <% if is_preview == true %> 
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Cache-Control" 
+          content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
   <% end %>
@@ -42,50 +43,80 @@
   <!-- Beginning header -->
   <header>
   <!-- Beginning nav -->
-    <nav aria-label="breadcrumb">
+    <nav>
       <h1>
           <a href="/">FoodiEats</a>
       </h1>
     </nav>
-  <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb">
-      <li>
-        <a href="/">Home</a>
-      </li>
-    </ul>
-  <!-- End breadcrumb -->
-  <!-- End nav -->
+    <!-- Beginning breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol id="breadcrumb">
+        <li>
+          <a href="/">Home</a>
+        </li>
+      </ol>
+    </nav>
   </header>
-  <!-- End header -->
 
 <!-- Beginning main -->
   <main id="maincontent">
 
   <!-- Beginning restaurant -->
     <section id="restaurant-container">
-      <h1 id="restaurant-name" aria-labelledby="restaurant name"></h1>
-      <img id="restaurant-img" aria-labelby="restaurant promo image">
-      <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address" aria-labelledby="restaurant address"></p>
-      <!-- Beginning map -->
-      <section id="map-container">
-        <div id="map"></div>
-      </section>
-      <!-- End map -->
-      <div  class="restaurant-hours-flexy-div">
-       <table id="restaurant-hours" aria-labelledby="restaurant hours"></table>
-     </div>
+      
+      <!-- Restaurant Img-->
+      <img  id="restaurant-img" 
+            aria-labelledby="restaurant promo image">
+      
+      <!-- Restaurant Name-->
+      <h1 id="restaurant-name" 
+          aria-labelledby="restaurant name">
+      </h1>
+
+      <!-- Restaurant Cusine-->
+      <p id="restaurant-cuisine" 
+          aria-labelledby="restaurant-cuisine + cuisine">
+      </p>
+      
+      <!-- Address -->
+      <p  id="restaurant-address" 
+          aria-labelledby="restaurant address">
+      </p>
+      
+      <!-- Map -->
+      <section id="map-container" 
+                aria-labelby="map-aria-description" 
+                roll="application">
+        <div id="map">
+        </div>
+        </section>
+        <label  id="map-aria-description" 
+                aria-labelby="map-aria-description" 
+                roll="application">
+        </label>
+      
+      <!-- Hours -->
+      <div  class="restaurant-hours-flex">
+        <table id="restaurant-hours" 
+                aria-labelledby="restaurant hours">
+        </table>
+      </div>
     </section>
+      <label  id="map-aria-description" 
+              aria-labelby="map-aria-description" 
+              roll="application">Hours
+      </label>
+
   <!-- end restaurant -->
 
   <!-- Beginning reviews -->
     <section id="reviews-container" aria-labelledby="customer reviews">
       <ul id="reviews-list" aria-labelledby="reviews listgit "></ul>
     </section>
-  <!-- End reviews -->
+    <!-- End reviews -->
 
   </main>
-<!-- End main -->
+
 
 
 <!-- Beginning footer -->
@@ -96,7 +127,7 @@
       ALL RIGHTS RESERVED.
   
   </footer>
-  <!-- End footer -->
+
  
 <!-- Beginning scripts --> 
 
