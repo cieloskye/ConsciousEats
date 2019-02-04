@@ -1,17 +1,17 @@
 <!doctype html>
 <html>
 <head>
-  <!--Meta-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
   
-  <!--CSS-->
-  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+<!--CSS-->
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   
-  <link rel="stylesheet" 
-        href="css/smStyles.css">
- <!--
+    <link rel="stylesheet" 
+          href="css/smStyles.css">
+ <!-- work ing progress:
   media="screen and (max-width: 600px)"
 
   <link rel="stylesheet" media="screen and(min-width: 501px)"href="css/mdStyles.css">
@@ -22,14 +22,16 @@
   integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" 
   crossorigin=""/>
   -->
-  
+<!--Scripts-->  
+  <!--SW Script-->
+    <script type="application/javascript" charset="utf-8" src="js/sw.js"></script>
+
   <!--MAP-->
-  <script src='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
   
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
-  
-<!--TITLE-->
-  <title>FoodiEats</title>
+  <!--TITLE-->
+    <title>FoodiEats</title>
 
 </head>
 
@@ -73,6 +75,7 @@
                   onchange="updateRestaurants()">
             <option value="all">All Neighborhoods</option>
           </select>
+          <label  id="neighborhoods-aria-description" class ="map-aria-description">MapBox Application</label>
           <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
           </select>
