@@ -220,25 +220,21 @@
   }
 
   /* ====================== Restaurant Details ====================== */
-  .inside header {
+   /*.inside header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-  }
+  } */
   .inside #map-container {
     background: blue none repeat scroll 0 0;
-    height: 300px;
-    position: fixed;
-    right: 0;
-    top: 80px;
-    width: 60%;
+    height: 200px;
   }
-  .inside #map {
+  /*.inside #map {
     background-color: #ccc;
     height: 100%;
     width: 100%;
-  }
+  } */
   .inside #footer {
     bottom: 0;
     position: absolute;
@@ -329,7 +325,7 @@
   }
   #restaurant-hours td {
     color: #666;
-    align-items: center;
+    justify-content: center;
     display: flex;
       flex-wrap: column;
   }
