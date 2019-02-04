@@ -20,12 +20,9 @@
   li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
-    color: #333;
+    color: white;
     max-width: 100%;
-    align-items: left;
-    display: flex;
-      flex-flow: column;  
-      flex: 1;
+    lign-items: left;
   }
   a {
     color: orange;
@@ -78,7 +75,10 @@
   nav {
     width: 100%;
     background-color: #252831;
-    text-align:center;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
   }
   nav h1 {
     margin: auto;
@@ -86,28 +86,34 @@
   }
   nav h1 a {
     color: #fff;
-    font-size: 18pt;
-    font-weight: 200;
-    letter-spacing: 5px;
+    font-size: 25pt;
+    font-weight: 900;
+    letter-spacing: 0px;
   }
   #breadcrumb {
       padding: 8px;
       list-style: none;
-      background-color: #eee;
+      background-color: #252831;
       font-size: 17px;
       margin: 0;
       max-width: 20px;
+      display: inline-flex;
+      flex-flow: row;
   }
 
   /* Display list items side by side */
   #breadcrumb li {
-      display: inline;
+      background-color: #252831;
+      color: white;
+      display: inline-flex;
+      flex-direction: row;
+
   }
 
   /* Add a slash symbol (/) before/behind each list item */
   #breadcrumb li+li:before {
       padding: 8px;
-      color: black;
+      color: white;
       content: "/\00a0";
   }
 
@@ -122,14 +128,18 @@
       color: #01447e;
       text-decoration: underline;
   }
+
   /* ====================== Map ====================== */
+  
   #map {
     min-width: 100%;
     max-width: 100%;
     /* margin: auto; */
     background-color: #ccc;
   }
+
   /* ====================== Restaurant Filtering ====================== */
+  
   .filter-options {
     width: 100%;
     background-color: #252831;
@@ -152,17 +162,18 @@
     background-color: white;
     border: 1px solid #fff;
     font-family: Arial,sans-serif;
-    font-size: 12pt;
-    min-width: 170px;
+    font-size: 14pt;
+    min-width: 200px;
     max-width: 50%;
     min-height: 42px;
     letter-spacing: 0;
-    margin: 5px;
-    padding: 5px 5px;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 8px;
   }
 
   /* ====================== Restaurant Listing ====================== */
+  
   #restaurants-list {
     background-color: #f3f3f3;
     list-style: outside none none;
@@ -220,9 +231,15 @@
   }
 
   /* ====================== Restaurant Details ====================== */
-  nav {
-    text-align: left;
-    }
+  
+  nav. 
+    a 
+    li {
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    text-decoration-color: #ffffff;
+  }
    /*.inside header {
     position: fixed;
     top: 0;
