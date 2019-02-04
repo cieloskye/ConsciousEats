@@ -1,7 +1,6 @@
 
 <!doctype html>
-
-<html>
+<html lang="en">
 
 <head>
 <!--Meta-->
@@ -15,12 +14,12 @@
   <% end %>
 
 <!--CSS-->
-<!-- Normalize.css for better cross-browser consistency -->
+  <!-- Normalize.css for better cross-browser consistency -->
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
-<!-- Small Screen CSS -->
+  <!-- Small Screen CSS -->
   <link rel="stylesheet" 
         href="css/smStyles.css">
-<!-- Work in progress
+  <!-- Work in progress
   media="screen and (max-width: 600px)"
   <link rel="stylesheet" media="screen and(min-width: 501px)"href="css/mdStyles.css">
 
@@ -31,6 +30,7 @@
   crossorigin=""/>
   --> 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
+
 <!--Title-->
   <title>Restaurant Info</title>
 
@@ -41,7 +41,7 @@
   <header>
   <!-- Beginning nav -->
     <nav aria-label="breadcrumb">
-      <h1 tabindex="1">
+      <h1>
           <a href="/">FoodiEats</a>
       </h1>
     </nav>
@@ -61,27 +61,28 @@
 
   <!-- Beginning restaurant -->
     <section id="restaurant-container">
-      <h1 id="restaurant-name" aria-labelledby="restaurant name + restaurant.name"></h1>
-      <img id="restaurant-img">
+      <h1 id="restaurant-name" aria-labelledby="restaurant name"></h1>
+      <img id="restaurant-img" aria-labelby="restaurant promo image">
       <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address" aria-labelledby="restaurant.name + hours"></p>
-      <table id="restaurant-hours"></table>
+      <p id="restaurant-address" aria-labelledby="restaurant address"></p>
+      <!-- Beginning map -->
+      <section id="map-container">
+        <div id="map"></div>
+      </section>
+      <!-- End map -->
+      <div  class="restaurant-hours-flexy-div">
+       <table id="restaurant-hours" aria-labelledby="restaurant hours"></table>
+     </div>
     </section>
   <!-- end restaurant -->
 
   <!-- Beginning reviews -->
-    <section id="reviews-container">
-      <ul id="reviews-list"></ul>
+    <section id="reviews-container" aria-labelledby="customer reviews">
+      <ul id="reviews-list" aria-labelledby="reviews list"></ul>
     </section>
   <!-- End reviews -->
 
-  <!-- Beginning map -->
-    <section id="map-container">
-      <div id="map"></div>
-    </section>
-  <!-- End map -->
   </main>
-
 <!-- End main -->
 
 
