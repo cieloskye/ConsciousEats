@@ -5,6 +5,44 @@
  */
 
 //Service Worker
+	const cacheList = [
+				'/',
+				'/index.html',
+				'/restaurant.html',
+				'/css/smStyles.css',
+				'/css/lgStyles.css',
+				'/js/main.js',
+				'/js/restaurant_info.js',
+				'/js/review.js',
+				'/js/sw.js',
+				'/js/dbhelper.js',
+				'/img/1.jpg',
+				'/img/2.jpg',
+				'/img/3.jpg',
+				'/img/4.jpg',
+				'/img/5.jpg',
+				'/img/6.jpg',
+				'/img/7.jpg',
+				'/img/8.jpg',
+				'/img/9.jpg',
+				'/img/10.jpg'];
+
+//https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/register#Examples
+ if ('serviceWorker' in navigator) {
+  // Register a service worker hosted at the root of the
+  // site using the default scope.
+  navigator.serviceWorker.register('/sw.js').then(function(registration) {
+    console.log('Service worker registration succeeded:', registration);
+  }, //catch
+  function(error) {
+    console.log('Service worker registration failed:', error);
+  });
+} else {
+  console.log('Service workers are not supported.');
+}
+
+
+/*
 let dbReady = false;
 
 //promise
@@ -51,8 +89,7 @@ self.addEventListener('fetch', (event) => {
 		const cacheURL = 'restaurant.html';
 		cacheRequest = new Request(cacheURL);
 	}
-
-
+*/
 /*
 	event.respondWith(
 		caches.match(event.request).then((response) => {
@@ -66,6 +103,25 @@ self.addEventListener('fetch', (event) => {
 			}
 		});
 	});
+
 */
 
+/* if ('serviceWorker' in navigator) {
+  // Register a service worker hosted at the root of the
+  // site using the default scope.
+  navigator.serviceWorker.register('/sw.js').then(function(registration) {
+    console.log('Service worker registration succeeded:', registration);
+  }, //catch
+  function(error) {
+    console.log('Service worker registration failed:', error);
+  });
+} else {
+  console.log('Service workers are not supported.');
+}
+
+
+
 });
+
+
+*/
