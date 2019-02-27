@@ -1,20 +1,21 @@
 @charset "utf-8";
 /* Small Screens/Mobile CSS Document */
+/*
 @media screen and (max-width: 800px){
-
+*/
   body,td,th,p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
     color: #333;
     line-height: 1.5;
+    margin-right: 0px;
+    margin-left: 0px;
   }
   body {
     background-color: #fdfdfd;
-    margin: 0;
     position:relative;
-    margin-left:auto;
-    margin-right:auto;
-    max-width: 900px;
+    max-width: 100%;
+    min-width: 100%
   }
   ul. 
   li {
@@ -22,7 +23,7 @@
     font-size: 10pt;
     color: white;
     max-width: 100%;
-    align-items: left;
+    align-items: center;
   }
   a {
     color: orange;
@@ -201,7 +202,7 @@
     padding: 2px 2px;
     min-width: 90%;
     max-width: 90%;
-    max-height:  100%; 
+    max-height: 100%; 
     align-items: center;
   }
   #restaurants-list li h1 {
@@ -229,6 +230,7 @@
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    align-items: center;
   }
 
   /* ====================== Restaurant Details ====================== */
@@ -236,10 +238,10 @@
   nav. 
     a 
     li {
-    text-align: center;
     display: flex;
     flex-flow: row;
     text-decoration-color: #ffffff;
+    justify-content: center;
   }
    /*.inside header {
     position: fixed;
@@ -276,16 +278,20 @@
     letter-spacing: 0;
     margin: 15px 10px;
     text-transform: uppercase;
-    justify-content: center;
     line-height: 1.1;
     padding: 10px;
+    align-items: center;
   }
   #restaurant-address {
     font-size: 18pt;
     font-weight: 600;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px 20px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+  
   }
   #restaurant-info-label {
         display: none;
@@ -307,6 +313,7 @@
   #restaurant-container, #reviews-container {
     border-bottom: 1px solid #d9d9d9;
     border-top: 1px solid #fff;
+    margin: 0;
   }
   #reviews-container {
     padding: 20px 15px 90px;
@@ -334,11 +341,10 @@
     max-width: 100%;
   } 
   #reviews-list li p {
-    margin: 2px;
+    margin: 0px;
   }
   .restaurant-hours-flex {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-top: 20px;
   }
