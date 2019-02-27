@@ -284,6 +284,7 @@
     font-weight: 600;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
     padding: 20px 20px;
   }
   #restaurant-info-label {
@@ -307,6 +308,7 @@
     border-bottom: 1px solid #d9d9d9;
     border-top: 1px solid #fff;
     margin: 0;
+    align-content: center;
   }
   #reviews-container {
     padding: 20px 15px 90px;
@@ -322,6 +324,7 @@
   #reviews-list {
     margin: 0 0 20px;
     padding: 0;
+    align-items: center;
   }
   #reviews-list li {
     margin: 0 0 20px;
@@ -332,7 +335,11 @@
     overflow: hidden;
     padding: 20px 20px 20px;
     position: relative;
-    max-width: 100%;
+    max-width: 50%;
+    min-width: 290px;
+    margin-right: auto;
+    margin-left: auto;
+
   } 
   #reviews-list li p {
     margin: 0px;
@@ -352,7 +359,10 @@
   .restaurant-reviewer-user {
     font-weight: 500;
   }
-  .map-aria-descriptions {
+  .map-aria-description {
+    display: none;
+  }
+  #hours-aria-description {
     display: none;
   }
   #breadcrumb li: last-of-type a {
