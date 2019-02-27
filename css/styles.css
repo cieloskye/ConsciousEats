@@ -339,8 +339,8 @@
   }
   .restaurant-hours-flex {
     display: flex;
-    align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    justify-content: center;
   }
   #restaurant-hours {
     width: 100%;
