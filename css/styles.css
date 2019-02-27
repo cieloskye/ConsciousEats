@@ -266,6 +266,9 @@
   */
   #restaurant-img {
     max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
   }
   #restaurant-name {
     color: #d36104;
@@ -284,8 +287,8 @@
     font-weight: 600;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
     padding: 20px 20px;
+    text-align: center;
   }
   #restaurant-info-label {
         display: none;
@@ -308,7 +311,7 @@
     border-bottom: 1px solid #d9d9d9;
     border-top: 1px solid #fff;
     margin: 0;
-    align-content: center;
+    text-align: center;
   }
   #reviews-container {
     padding: 20px 15px 90px;
